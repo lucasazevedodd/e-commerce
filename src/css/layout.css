@@ -1,0 +1,21 @@
+body {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.main-wrapper--opened,
+.main-wrapper {
+  background: #fff;
+  color: #333;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  transition: all 0.3s;
+}
+
+.main-wrapper--opened {
+  transform: translate(calc(100% - 100px), 0px) scale(0.9);
+  border-radius: 16px;
+  border: 2px solid #fff;
+}

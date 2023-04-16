@@ -1,25 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EA Fashion</title>
-    <link rel="stylesheet" href="src/css/reset.css">
-    <link rel="stylesheet" href="src/css/styles.css">
-    <link rel="stylesheet" href="src/css/layout.css">
-    <link rel="stylesheet" href="src/css/header.css">
-    <link rel="stylesheet" href="src/css/footer.css">
-</head>
-<body>
-    <header>
-        header text
-    </header>
-    <main>
-        main text
-    </main>
-    <footer>
+    <link rel="stylesheet" href="src/css/variables.css" />
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/styles.css" />
+    <link rel="stylesheet" href="src/css/layout.css" />
+    <link rel="stylesheet" href="src/css/header.css" />
+    <link rel="stylesheet" href="src/css/footer.css" />
+    <link rel="stylesheet" href="src/css/icons.css" />
+
+    <script src="src/js/scripts.js"></script>
+  </head>
+  <body>
+    <aside>
+      <div>
+        <div>
+          <img src="src/images/user.png" alt="" />
+        </div>
+        <div>
+          <h4>John Doe</h4>
+          <span>john.doe@gmail.com</span>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Meus Pedidos</a>
+          </li>
+          <li>
+            <a href="#">Categorias</a>
+            <ul>
+              <li>
+                <a href="#">Moda Feminina</a>
+              </li>
+              <li>
+                <a href="#">Moda Infantil</a>
+              </li>
+              <li>
+                <a href="#">Moda Masculina</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+    <div class="main-wrapper">
+      <header class="main-header">
+        <div class="main-header__menu-button-container">
+          <button class="main-header__menu-button" onclick="toggleMenu()">Click Me</button>
+        </div>
+        <div class="main-header__logo-container">
+          <img class="main-header__logo" src="src/images/logo.svg" alt="" />
+        </div>
+        <div class="main-header__buttons-container">
+          <button class="main-header__icon-button--search">
+            <span class="icon-search"></span>
+          </button>
+          <button class="main-header__icon-button--cart">
+            <span class="icon-bag"></span>
+            <span class="main-header__icon-button--cart__quantity">0</span>
+          </button>
+        </div>
+      </header>
+      <main>main text</main>
+      <footer>
         <p>EAFashion&copy;2023. Todos os Direitos Reservados</p>
-    </footer>
-</body>
+      </footer>
+    </div>
+  </body>
 </html>
+
+.main-header > .menu-button { }

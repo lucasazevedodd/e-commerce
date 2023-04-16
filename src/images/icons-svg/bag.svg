@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.25" height="23.389" viewBox="0 0 21.25 23.389">
+  <g id="Icon_feather-shopping-bag" data-name="Icon feather-shopping-bag" transform="translate(-3.5 -2)">
+    <path id="Path_4" data-name="Path 4" d="M7.708,2H20.542a1,1,0,0,1,.8.4L24.55,6.678a1,1,0,0,1,.2.6V22.25a3.142,3.142,0,0,1-3.139,3.139H6.639A3.142,3.142,0,0,1,3.5,22.25V7.278a1,1,0,0,1,.2-.6L6.908,2.4A1,1,0,0,1,7.708,2ZM20.042,4H8.208L5.5,7.611V22.25a1.14,1.14,0,0,0,1.139,1.139H21.611A1.14,1.14,0,0,0,22.75,22.25V7.611Z" fill="#3f2a40"/>
+    <path id="Path_5" data-name="Path 5" d="M23.75,10H4.5a1,1,0,1,1,0-2H23.75a1,1,0,1,1,0,2Z" transform="translate(0 -1.722)" fill="#3f2a40"/>
+    <path id="Path_6" data-name="Path 6" d="M16.278,20.278A5.284,5.284,0,0,1,11,15a1,1,0,0,1,2,0,3.278,3.278,0,0,0,6.556,0,1,1,0,0,1,2,0A5.284,5.284,0,0,1,16.278,20.278Z" transform="translate(-2.153 -3.444)" fill="#3f2a40"/>
+  </g>
+</svg>
