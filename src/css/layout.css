@@ -12,6 +12,8 @@ body {
   height: 100%;
   top: 0;
   transition: all 0.3s;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .main-wrapper--opened {
