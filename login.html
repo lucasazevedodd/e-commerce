@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EA Fashion</title>
+    <link rel="stylesheet" href="src/css/variables.css" />
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/styles.css" />
+    <link rel="stylesheet" href="src/css/layout.css" />
+    <link rel="stylesheet" href="src/css/header.css" />
+    <link rel="stylesheet" href="src/css/footer.css" />
+    <link rel="stylesheet" href="src/css/icons.css" />
+    <link rel="stylesheet" href="src/css/login.css" />
+
+    <script src="src/js/login.js"></script>
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <main class="login">
+        <div class="login__logo">
+          <img class="login__logo__image" src="src/images/logo.svg" alt="" />
+        </div> 
+        <h1 class="login__title">Login</h1>
+
+        <form id="loginForm" name="loginForm" class="login__form" action="index.html" onsubmit="login(event)" method="GET">
+          <div class="login__form__field">
+            <label class="login__form__field__label" for="">Usuário</label>
+            <input autofocus placeholder="Digite seu usuário" name="username" class="login__form__field__input" required type="text" />
+          </div>
+          <div class="login__form__field">
+            <label class="login__form__field__label" for="">Senha</label>
+            <input placeholder="Digite sua senha" name="password" class="login__form__field__input" required type="password" />
+          </div>
+          <a class="forgot-password-link" href="#">Esqueci minha senha</a>
+          <div class="login__form__button-container">
+            <input type="submit" class="login__form__button--primary" value="Entrar" />
+            <div class="login__form__or">
+              <span class="login__form__or__text">ou</span>
+            </div>
+            <button class="login__form__button--secondary">Criar minha conta</button>
+          </div>
+        </form>
+      </main>
+      <div class="login-banner">
+        <p class="login-banner__text">
+          Compre com os <strong>melhores preços</strong> do mercado e acompanhe as <strong>novas tendências!</strong>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,141 @@
+.login {
+  padding: 32px;
+  max-width: 480px;
+  margin: auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.login__logo {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.login__title {
+  font-size: 24px;
+  margin-bottom: 24px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.login__form__field {
+  margin-bottom: 24px;
+}
+
+.login__form__field__label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.login__form__field__input {
+  width: 100%;
+  height: 48px;
+  box-sizing: border-box;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid var(--primary-color);
+}
+
+.forgot-password-link {
+  text-align: center;
+  display: block;
+  margin-bottom: 32px;
+  color: var(--primary-color);
+}
+
+.login__form__button--secondary,
+.login__form__button--primary,
+.login__form__button {
+  width: 100%;
+  border-radius: 8px;
+  line-height: 20px;
+  padding: 12px 16px;
+  font-size: 16px;
+  text-transform: uppercase;
+  border: none;
+}
+.login__form__button--primary {
+  background: var(--primary-color);
+  color: #fff;
+}
+.login__form__button--secondary {
+  background: #fff;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+}
+
+.login__form__or {
+  text-align: center;
+  margin: 24px 0;
+  position: relative;
+}
+
+.login__form__or:before {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 1px;
+  background: #ddd;
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.login__form__or__text {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  background: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.login-banner {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .main-wrapper {
+    display: flex;
+    width: 100%;
+  }
+  .login-banner {
+    background: #000 url("./../images/login-background.png") no-repeat center /
+      cover;
+    display: flex;
+    width: 100%;
+    position: relative;
+  }
+
+  .login-banner:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    backdrop-filter: blur(4px);
+  }
+
+  .login-banner__text {
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    font-weight: lighter;
+    font-style: italic;
+    margin: auto;
+    position: relative;
+    z-index: 10;
+    padding: 0 80px;
+  }
+
+  .login-banner__text strong {
+    font-weight: bold;
+  }
+}

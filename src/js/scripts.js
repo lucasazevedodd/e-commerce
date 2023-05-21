@@ -34,12 +34,11 @@ function setActiveSlide(num) {
 }
 
 window.onload = function () {
-  
   let numOfSlides = Array.from(
     document.querySelectorAll(".carousel-indicator button")
   ).length;
 
   window.setInterval(function () {
-    setActiveSlide((++currentSlide) % numOfSlides);
+    setActiveSlide(++currentSlide % numOfSlides);
   }, 5000);
 };
